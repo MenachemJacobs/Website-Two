@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="style.css">
+    <title>quick quiz</title>
+</head>
+<body>
+    <div class="button">
+        <button class="toggle">Dark mode</button>
+    </div>
+
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1>Quiz Game</h1>
+            <button class="ripple"><a class= "ripple" href="javascript:delay('Quiz_one_page/quiz1.html')">Play Sports Quiz</a></button>
+            <button class ="ripple"><a class= "ripple" href="javascript:delay('Quiz_two_page/quiz2.html')">Play Pokemon Quiz</a></button>
+            <button class ="ripple"><a class= "ripple" href="javascript:delay('Quiz_three_page/quiz3.html')">Play History Quiz</a></button>
+
+            <!--        <a class="btn" href="Quiz_one_page/quiz1.html">Play Sports Quiz</a>
+            <a class="btn" href="Quiz_two_page/quiz2.html">Play Pokemon Quiz</a>
+            <a class="btn" href="Quiz_three_page/quiz3.html">Play History Quiz</a> -->
+
+        </div>
+    </div>
+
+    <div class="clock-container">
+      <div class="clock">
+        <div class="needle hour"></div>
+        <div class="needle minute"></div>
+        <div class="needle second"></div>
+        <div class="center-point"></div>
+      </div>
+
+      <div class="time"></div>
+      <div class="date"> <span class="circle"></span></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
